@@ -40,9 +40,9 @@
   echo $sql;
 
   if ($conn->query($sql) === TRUE) {
-    header("Location: ./view.php?submitmsg=2.php");
+    header("Location: ./view.php?subresult=2");
   } else {
-    header("Location: ./view.php?submitmsg=1.php");
+    header("Location: ./view.php?subresult=1");
   }
 ?>
 

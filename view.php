@@ -8,15 +8,12 @@
 
 <?php include("./assets/templates/html_navbar.php");?>
 
-<?php if ($_GET["submitresult"]):?>
+<?php if (!is_null($_GET["subresult"])):?>
 
 <div class="container mt-4">
 
 <?php
-  $submit_val = $_GET["submitresult"];
-
-  $submit_msg = "";
-  $alert_class = "";
+  $submit_val = intval($_GET["subresult"]);
 
   switch ($submit_val) {
      case 1:
