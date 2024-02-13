@@ -36,29 +36,37 @@
 
 <div class="row">
 
-<div class="col-6 col-md-3">
-  <img src="./assets/static/icons/icon-view.png" class="card-img-top" alt="...">
+<div class="col-6 col-md-3 mb-4">
+  <div class="text-center">
+    <img src="./assets/static/icons/icon-view.png" class="card-img-top" style="width: 60%;" alt="...">
+  </div>
   <div class="text-center">
     <a href="./view.php" class="btn btn-success">View data</a>
   </div>
 </div><!-- /.col -->
 
-<div class="col-6 col-md-3">
-  <img src="./assets/static/icons/icon-submit.png" class="card-img-top" alt="...">
+<div class="col-6 col-md-3 mb-4">
+  <div class="text-center">
+    <img src="./assets/static/icons/icon-submit.png" class="card-img-top" style="width: 60%;" alt="...">
+  </div>
   <div class="text-center">
     <a href="./submit.php" class="btn btn-success">Submit data</a>
   </div>
 </div><!-- /.col -->
 
-<div class="col-6 col-md-3">
-  <img src="./assets/static/icons/icon-about.png" class="card-img-top" alt="...">
+<div class="col-6 col-md-3 mb-4">
+  <div class="text-center">
+    <img src="./assets/static/icons/icon-about.png" class="card-img-top" style="width: 60%;" alt="...">
+  </div>
   <div class="text-center">
     <a href="#" class="btn btn-success">About us</a>
   </div>
 </div><!-- /.col -->
 
-<div class="col-6 col-md-3">
-  <img src="./assets/static/icons/icon-contact.png" class="card-img-top" alt="...">
+<div class="col-6 col-md-3 mb-4">
+  <div class="text-center">
+    <img src="./assets/static/icons/icon-contact.png" class="card-img-top" style="width: 60%;" alt="...">
+  </div>
   <div class="text-center">
     <a href="#" class="btn btn-success">Contact us</a>
   </div>

@@ -9,8 +9,9 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav mw-auto">
 
     <li class="nav-item">
     <a class="nav-link" href="./view.php">View Data</a>
@@ -26,5 +27,18 @@
 
 </div> <!-- /.container -->
 </nav>
+
+<script>
+var textDirection = window.getComputedStyle(document.documentElement).direction;
+
+if (textDirection=="ltr") {
+  console.log("ltr");
+}
+
+if (textDirection=="rtl") {
+  document.getElementsByClassName("navbar-nav mw-auto").className = "navbar-nav me-auto";
+  console.log("LTR");
+}
+</script>
 
 <!-- End of html_navbar.php -->
