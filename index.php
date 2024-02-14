@@ -36,7 +36,7 @@
 
 <div class="row">
 
-<div class="col-6 col-md-3 mb-4">
+<div class="col-sm-12 col-md-6 col-lg-3">
   <div class="text-center">
     <img src="./assets/static/icons/icon-view.png" class="card-img-top" style="width: 60%;" alt="...">
   </div>
@@ -45,7 +45,7 @@
   </div>
 </div><!-- /.col -->
 
-<div class="col-6 col-md-3 mb-4">
+<div class="col-sm-12 col-md-6 col-lg-3">
   <div class="text-center">
     <img src="./assets/static/icons/icon-submit.png" class="card-img-top" style="width: 60%;" alt="...">
   </div>
@@ -54,16 +54,16 @@
   </div>
 </div><!-- /.col -->
 
-<div class="col-6 col-md-3 mb-4">
+<div class="col-sm-12 col-md-6 col-lg-3">
   <div class="text-center">
     <img src="./assets/static/icons/icon-about.png" class="card-img-top" style="width: 60%;" alt="...">
   </div>
   <div class="text-center">
-    <a href="#" class="btn btn-success">About us</a>
+    <a href="./about.php" class="btn btn-success">About us</a>
   </div>
 </div><!-- /.col -->
 
-<div class="col-6 col-md-3 mb-4">
+<div class="col-sm-12 col-md-6 col-lg-3">
   <div class="text-center">
     <img src="./assets/static/icons/icon-contact.png" class="card-img-top" style="width: 60%;" alt="...">
   </div>

@@ -21,6 +21,15 @@
     <a class="nav-link" href="./submit.php">Submit Data</a>
     </li>
 
+    <li class="nav-item">
+    <a class="nav-link" href="./about.php">About us</a>
+    </li>
+
+    <li class="nav-item">
+    <a class="nav-link" href="#">Contact us</a>
+    </li>
+
+
     </ul>
 
   </div> <!-- /.collapse navbar-collapse -->
