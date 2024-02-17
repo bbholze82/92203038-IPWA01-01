@@ -3,11 +3,11 @@
 ?>
 
 
-<?php include("./assets/templates/html_head.php");?>
+<?php include("./assets/snippets/html_head.php");?>
 
 <body>
 
-<?php include("./assets/templates/html_navbar.php");?>
+<?php include("./assets/snippets/html_navbar.php");?>
 
 
 <div class="container mt-4">
@@ -90,8 +90,7 @@
 
 <div class="b-example-divider"></div>
 
-<?php include("./assets/templates/html_footer.php");?>
+<?php include("./assets/snippets/html_footer.php");?>
 
-<script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

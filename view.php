@@ -2,11 +2,11 @@
   $page_title = "View data";
 ?>
 
-<?php include("./assets/templates/html_head.php");?>
+<?php include("./assets/snippets/html_head.php");?>
 
 <body>
 
-<?php include("./assets/templates/html_navbar.php");?>
+<?php include("./assets/snippets/html_navbar.php");?>
 
 <?php if (!is_null($_GET["subresult"])):?>
 
@@ -202,8 +202,7 @@
 </div> <!-- /.row-->
 </div> <!-- /.container-->
 
-<?php include("./assets/templates/html_footer.php");?>
+<?php include("./assets/snippets/html_footer.php");?>
 
-<script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

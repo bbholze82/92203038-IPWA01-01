@@ -4,18 +4,18 @@
 ?>
 
 
-<?php include("./assets/templates/html_head.php");?>
+<?php include("./assets/snippets/html_head.php");?>
 
 <body>
 
-<?php include("./assets/templates/html_navbar.php");?>
+<?php include("./assets/snippets/html_navbar.php");?>
 
 
 <div class="container mt-4">
 <div class="row">
 
 <!-- Jumbotron -->
-<?php include("./assets/templates/calc_total_sum_carbon.php");?>
+<?php include("./assets/snippets/calc_total_sum_carbon.php");?>
 <div class="p-5 text-center bg-image rounded-3" style="background-image: url('./assets/static/images/header_image.jpg'); height: 400px;">
 
     <div class="d-flex justify-content-left align-items-left h-100">
@@ -76,9 +76,7 @@
 
 </div> <!-- /.container-->
 
-<?php include("./assets/templates/html_footer.php");?>
+<?php include("./assets/snippets/html_footer.php");?>
 
-
-<script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

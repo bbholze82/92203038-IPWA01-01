@@ -4,11 +4,11 @@
 
 <DOCTYPE html>
 
-<?php include("./assets/templates/html_head.php");?>
+<?php include("./assets/snippets/html_head.php");?>
 
 <body>
 <p>Error</p>
 
-<?php include("./assets/templates/html_footer");?>
+<?php include("./assets/snippets/html_footer");?>
 
 </body>
