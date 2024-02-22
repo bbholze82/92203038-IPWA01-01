@@ -29,21 +29,24 @@
 ?>
 
 <?php
+$conn = new mysqli("localhost", "gfdbu", "Start24!", "greenfoot_data");
 
-  $conn = new mysqli("localhost","gfdbu","Start24!","greenfoot_data");
-  // Check connection
-  if ($conn->connect_error) {
+if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-  }
+}
 
-  $sql = "INSERT INTO co2data (type, name, value) VALUES ({$subm_type},'{$subm_name}',{$subm_value})";
-  echo $sql;
+$stmt = $conn->prepare("INSERT INTO co2data (type, name, value) VALUES (?, ?, ?)");
 
-  if ($conn->query($sql) === TRUE) {
+$stmt->bind_param("isi", $subm_type, $subm_name, $subm_value);
+
+if ($stmt->execute()) {
     header("Location: ./view.php?subresult=2");
-  } else {
+} else {
     header("Location: ./view.php?subresult=1");
-  }
+}
+
+$stmt->close();
+$conn->close();
 ?>
 
 <?php endif;?>

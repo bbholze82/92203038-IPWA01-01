@@ -122,14 +122,13 @@
   $sub_sort_val = 1;
 
   if(!is_null($_GET["filter"])) {
-    $sub_filter_val = intval(htmlspecialchars($_GET["filter"]));
+    $sub_filter_val = intval($_GET["filter"]);
   }
 
   if(!is_null($_GET["sort"])) {
-    $sub_sort_val = intval(htmlspecialchars($_GET["sort"]));
+    $sub_sort_val = intval($_GET["sort"]);
   }
 
-  // building sql query
 
   switch($sub_filter_val) {
 
