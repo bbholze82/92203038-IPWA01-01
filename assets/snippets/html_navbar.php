@@ -31,20 +31,4 @@
   </div>
 </nav>
 
-
-<script>
-var textDirection = window.getComputedStyle(document.body, null).getPropertyValue('direction');
-
-console.log(textDirection);
-
-if (textDirection==="ltr") {
-  console.log("ltr");
-}
-
-if (textDirection==="rtl") {
-  document.getElementsByClassName("navbar-nav mw-auto").className = "navbar-nav me-auto";
-  console.log("LTR");
-}
-</script>
-
 <!-- End of html_navbar.php -->
